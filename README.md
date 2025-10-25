@@ -30,21 +30,14 @@ Este projeto é uma **Calculadora Simples** desenvolvida puramente com HTML, CSS
 
 ## 🚀 Como Executar o Projeto
 
-É muito simples! Este é um projeto *client-side* (que roda no navegador).
-
-1.  **Clone o Repositório:**
-    ```bash
-    git clone [(https://github.com/brunobb88/Calculadora)]
-    ```
-
-2.  **Abra o Arquivo:**
-    Navegue até a pasta do projeto e abra o arquivo `index.html` diretamente no seu navegador de preferência (Chrome, Firefox, Edge, etc.).
+1.  **Acesse Online:**
+    A maneira mais fácil é acessando o link do projeto **diretamente no seu navegador**:
+    
+    👉 **[TESTE A CALCULADORA AQUI!](https://brunobb88.github.io/Calculadora)**
 
 ---
 
-## 🤝 Contribuições e Contato
-
-Se você gostou do projeto, sinta-se à vontade para dar um *fork* e praticar suas próprias melhorias!
+## Contato
 
 * **Meu LinkedIn:** (https://www.linkedin.com/in/bruno-bortoloto-4348631b3/)
 * **E-mail:** brunobb_88@yahoo.com.br

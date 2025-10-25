@@ -1,2 +1,60 @@
-# Calculadora
-Projeto de uma calculadora simples
+# 🧮 Calculadora Simples (HTML, CSS e JavaScript)
+
+## 🌟 Visão Geral do Projeto
+
+Este projeto é uma **Calculadora Simples** desenvolvida puramente com HTML, CSS e JavaScript. Foi criado como um projeto fundamental para o meu portfólio de Desenvolvedor Júnior, demonstrando o domínio dos fundamentos do desenvolvimento web e a aplicação da lógica de programação.
+
+É um projeto interativo e responsivo, capaz de realizar as quatro operações aritméticas básicas (adição, subtração, multiplicação e divisão), além de funções de limpeza e porcentagem.
+
+---
+
+## ✨ Tecnologias Utilizadas
+
+| Tecnologia | Descrição |
+| :--- | :--- |
+| **HTML5** | Estruturação da calculadora e dos botões. |
+| **CSS3** | Estilização (incluindo o uso de **CSS Grid** para o layout das teclas) e garantia da responsividade. |
+| **JavaScript (Vanilla JS)** | Implementação da lógica de cálculo e manipulação da interface (DOM). |
+
+---
+
+## 💡 Habilidades Demonstradas
+
+* **Fundamentos Web:** Uso de HTML semântico e CSS moderno (Grid e responsividade).
+* **Lógica de Programação:** Implementação de funções de cálculo, tratamento de diferentes operadores e controle de fluxo (`switch` e `if/else`).
+* **Manipulação do DOM:** Interceptação de eventos de clique em botões (`addEventListener`) e atualização dinâmica do visor da calculadora.
+* **Gestão de Estado:** Uso de variáveis JavaScript para controlar o fluxo da operação (`primeiroNumero`, `operador`, `esperandoSegundoNumero`).
+* **Controle de Versão:** Todo o desenvolvimento foi gerenciado usando Git e GitHub.
+
+---
+
+## 🚀 Como Executar o Projeto
+
+É muito simples! Este é um projeto *client-side* (que roda no navegador).
+
+1.  **Clone o Repositório:**
+    ```bash
+    git clone [Link do seu repositório]
+    ```
+
+2.  **Abra o Arquivo:**
+    Navegue até a pasta do projeto e abra o arquivo `index.html` diretamente no seu navegador de preferência (Chrome, Firefox, Edge, etc.).
+
+
+---
+
+## 🖼️ Screenshots (Opcional, mas Altamente Recomendado)
+
+Adicione aqui uma imagem de alta qualidade do seu projeto em funcionamento.
+Você pode usar a tag: `![Calculadora em Funcionamento](assets/screenshot.png)`
+
+---
+
+## 🤝 Contribuições e Contato
+
+Se você gostou do projeto, sinta-se à vontade para dar um *fork* e praticar suas próprias melhorias!
+
+* **Meu LinkedIn:** (https://www.linkedin.com/in/bruno-bortoloto-4348631b3/)
+* **E-mail:** brunobb_88@yahoo.com.br
+
+---

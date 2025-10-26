@@ -1,0 +1,80 @@
+/* 1. Reset Básico (opcional, mas bom) */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0; /* Cor de fundo suave */
+}
+
+/* 2. Estilo da Calculadora */
+.calculadora {
+    width: 300px; /* Largura fixa */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    background-color: #222; /* Fundo escuro */
+    padding: 15px;
+}
+
+/* 3. Estilo do Visor */
+#visor {
+    width: 100%;
+    height: 60px;
+    background-color: #444;
+    color: white;
+    font-size: 2.5em;
+    text-align: right;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* 4. Layout das Teclas (usando CSS Grid) */
+.teclas {
+    display: grid;
+    /* 4 colunas com o mesmo tamanho */
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px; /* Espaçamento entre os botões */
+}
+
+/* 5. Estilo dos Botões */
+.teclas button {
+    height: 60px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.1s;
+    background-color: #555; /* Cor padrão dos números */
+    color: white;
+}
+
+/* Estilo para Botões Operadores */
+.operador {
+    background-color: #f69906 !important; /* Laranja */
+    color: white !important;
+}
+
+/* Estilo para o Botão Igual */
+.igual {
+    background-color: #2a6bff !important; /* Azul */
+}
+
+/* Estilo para o Botão Zero (ocupa 2 colunas) */
+.zero {
+    grid-column: span 2;
+}
+
+/* Efeito ao clicar (interação) */
+.teclas button:hover {
+    filter: brightness(1.2); /* Deixa a cor mais clara no hover */
+}
